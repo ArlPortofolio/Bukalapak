@@ -6,140 +6,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!-- <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet" /> -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <title>StarlUp</title>
   </head>
-  <body> 
-         <!-- Slider -->
-    <div class="slider">
-      <div class="text-seller">Best Seller</div>
-      <div class="slider-items">
-        <!-- Item Slider -->
-        <div class="items active">
-          <img class="img" src="/assets/img/image.jpg" alt="" />
-          <div class="caption">Produk 1</div>
-        </div>
-        <div class="items">
-          <img class="img" src="/assets/img/image2.jpg" alt="" />
-          <div class="caption">Produk 2</div>
-        </div>
-        <div class="items">
-          <img class="img" src="/assets/img/image3.jpg" alt="" />
-          <div class="caption">Produk 3</div>
-        </div>
-        <!-- End Item Slider -->
-      </div>
-      <!-- Tombol Slider -->
-      <div class="left-slide"><</div>
-      <div class="right-slide">></div>
-      <div class="label-catalog">
-          <label><strong>Bose SoundLink</strong> </label>
-          <p>Little speaker, Big Gosebump</p>
-      </div>
-      <div class="trigger">
-        <div class="symbol" id="Button"><img class="eye" src="/assets/img/quicklook.svg" alt=""></div>
-        <div class="price"><strong>$199</strong></div>
-      </div>
-        
-    </div>
-    <!-- End Slider -->
-    
-    
+  <body>
+    <!-- Main Page -->
 
+    <div class="main-page">
 
-    <!-- POPUP START -->
-
-    <div class="popup">
-      <div class="popup-content">
-        <!-- Part Left -->
-        <img src="/assets/img/btn-close.png" alt="close" class="close">
-        <div class="img-master">
-          <div class="text-seller">Best Seller</div>
-          <img class="img-catalog" src="/assets/img/image.jpg" alt="" />
-        </div>
-        <!-- End Part Left -->
-
-        <!-- Part Right -->
-    <div class="detail">
-
-        <h1><strong>Bose SoundLink <br>$199</br></strong></h1>
-        <p id="deskrip">wireless Earphone for music Lovers <br>live to move </br></p>
-
-        <!-- Tombol Spec -->
-
-        <div class="menu-spec">
-            <P role="button" class="button" id="koButton">Specsification</P>
-            <P role="button" class="button" id="okButton">Features</P>
-        </div>
-
-        <div class="master-spec">
-
-                <div class="main-specsification">
-                      <div class="specsification">&#10004;</div>
-                      <p class="text">Powerful sound</p>
-                </div>
-
-                <div class="main-specsification">
-                      <div class="specsification">&#10004;</div>
-                      <p class="text">Wireless earphone</p>
-                </div>
-
-                <div class="main-specsification">
-                      <div class="specsification">&#10004;</div>
-                      <p class="text">Up to 6 hours playtime</p>
-                </div>
-
-        </div>
-
-
-        <div class="master-features" >
-
-                  <div class="main-specsification">
-                        <div class="specsification">&#10004;</div>
-                        <p class="text">Bumpers for bumping</p>
-                  </div>
-
-                  <div class="main-specsification">
-                        <div class="specsification">&#10004;</div>
-                        <p class="text">All sound no seam</p>
-                  </div>
-
-                  <div class="main-specsification">
-                        <div class="specsification">&#10004;</div>
-                        <p class="text">Grab and go</p>
-                  </div>
-
-        </div>
-
-        <div class="main-colour">
-            <p class="text-chosee"><strong>Chosse your colors</strong></p>
-                <div class="colour">
-                <div class="white"></div>
-                <div class="coklat"></div>
-                <div class="hitam"></div>
-                </div>
-        </div>
-
-        <div class="main-shipping">
-          <div class="shipp">&#10004;</div>
-          <p class="text">Free shipping & returns</p>
-        </div>
-
-        <div class="trigger">
-          <div class="symbol" id="Button"><img class="eye" src="/assets/img/cart.svg" alt=""></div>
-          <div class="price"><strong>BUY</strong></div>
+      <div class="best">
+        <div class="bestseller"><h1><strong>BESTSELLER</strong></h1></div>
       </div>
 
-</div>
-
-
-        <!-- End Part Right -->
+      <div class="photo">
+        <img  src="/assets/img/image.jpg" alt="">
       </div>
+
+      <div class="photo-desk">
+        <h1><strong>Bose SoundLink </strong></h1>
+        <p>Little speaker Big gosebump</p>
+      </div>
+
+      <div class="popup-menu">
+        <div role="button" class="popup1"><img  src="/assets/img/quicklook.svg" alt=""></div>
+        <div class="popup2"><p><strong>$199</strong></p></div>
+      </div>
+
     </div>
 
-    <script src="assets/bootstrap/js/bootstrap.js"></script>
-    <script src="assets/bootstrap/js/popper.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <!-- End Main Page -->
+
+    <!-- Popup Page -->
+
+    <div class="container">
+      <div class="frame">
+        <div class="page-left">
+          <div class="taq-bestseller"><h1><strong>BESTSELLER</strong></h1></div>
+
+          <!-- Slider -->
+          <div class="slidershow middle">
+            <div class="slides">
+              <input type="radio" name="r" id="r1" checked />
+              <input type="radio" name="r" id="r2" />
+              <input type="radio" name="r" id="r3" />
+              <div class="slide s1">
+                <img src="/assets/img/image.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="/assets/img/image2.jpg" alt="" />
+              </div>
+              <div class="slide">
+                <img src="/assets/img/image3.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+          </div>
+
+          <!-- End Slider -->
+        </div>
+
+
+        <div class="page-right">
+
+          <!-- Detail -->
+          <div class="deskripsi">
+            <h1><strong>Bose SoundLink </strong><br>$199</br></h1>
+            <p id="deskrip">wireless Earphone for music Lovers <br>live to move </br></p>
+          </div>
+          <!-- End Detail -->
+
+          <!-- Menu Detail -->
+          <div class="menu-detail">
+            <li><a href="#" class="cool-link" id="okButton">Specification</a></li>
+            <li><a href="#" class="cool-link" id="koButton">Features</a></li>
+          </div>
+          <!-- End Menu Detail -->
+
+          <!-- Detail Spec -->
+
+          <div class="cont">
+
+            <div class="menu-spec">
+              <div class="check"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="check-text">Up to 8 hours play time</div>
+            </div>
+
+            <div class="menu-spec">
+              <div class="check"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="check-text">Poerful sound</div>
+            </div>
+
+            <div class="menu-spec">
+              <div class="check"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="check-text">Wireless earphone</div>
+            </div>
+
+          </div>
+
+          <div class="cont-feature">
+
+            <div class="menu-spec">
+              <div class="check"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="check-text">Bumpers for bumping</div>
+            </div>
+
+            <div class="menu-spec">
+              <div class="check"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="check-text">All Sound no seam</div>
+            </div>
+
+            <div class="menu-spec">
+              <div class="check"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="check-text">Grab and go</div>
+            </div>
+
+          </div>  
+          
+          <!-- End Detail Spec -->
+
+          <!-- Colour -->
+          <div class="colour">
+          <form action="/action_page.php">
+            <p><strong>select your colour:</strong></p>
+            <input type="radio" id="r1" name="gender" value="male">
+            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" id="other" name="gender" value="other">
+          </form>
+          </div>
+
+          <!-- End Colour -->
+
+          <!-- Warranty -->
+
+          <div class="warranty-master">
+          <div class="warranty">
+              <div class="war"><img id="img-check" src="/assets/img/check.svg" alt=""></div>
+              <div class="war1"><p>Free shipping and return + 2 years warranty</p></div>
+          </div>
+          </div>
+          
+          <!-- Warranty -->
+
+          <!-- Buy now -->
+          <div class="buyNow">
+            <div typ class="cart"><img src="/assets/img/cart.svg" alt=""></div>
+            <div class="buy"><p><strong>BUY NOW</strong></p></div>
+          </div>
+          <!-- End Buy Now -->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- End Popup Page -->
+
+   <!-- <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script> -->
+    <script src="/assets/js/script.js"></script>
   </body>
 </html>
